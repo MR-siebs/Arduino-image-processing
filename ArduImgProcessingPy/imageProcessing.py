@@ -11,6 +11,8 @@ def scan4laser(srcPath):
     img = cv.resize(src, (int(src.shape[1]/5), int(src.shape[0]/5)))    # resizes because the test image was to big :P
 
 ############ Image processing #############
+
+    minVal, maxVal, minLoc, maxLoc = cv.minMaxLoc(imgGray)
     
     # cv.circle(img, maxLoc, 4, (255,00,00))
 
