@@ -2,6 +2,10 @@ import cv2 as cv
 import numpy as np
 
 
+
+# IK HEB HIER ZOVEEL TIJD IN VERSPILD :'(
+
+
 def getMiddle(imgDil, img):
     contours,hierarchy = cv.findContours(imgDil,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_NONE)
     for cnt in contours:
