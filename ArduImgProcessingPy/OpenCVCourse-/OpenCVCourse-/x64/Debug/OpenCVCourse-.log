@@ -1,0 +1,5 @@
+﻿  playGround.cpp
+C:\Users\siebr\source\repos\OpenCVCourse-\OpenCVCourse-\playGround.cpp(19,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\siebr\source\repos\OpenCVCourse-\OpenCVCourse-\playGround.cpp(27,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\siebr\source\repos\OpenCVCourse-\OpenCVCourse-\playGround.cpp(39,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  OpenCVCourse-.vcxproj -> C:\Users\siebr\source\repos\OpenCVCourse-\x64\Debug\OpenCVCourse-.exe
