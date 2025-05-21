@@ -12,6 +12,8 @@ def scan4laser(srcPath):
 
 ############ Image processing #############
 
+    imgGray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
+    
     minVal, maxVal, minLoc, maxLoc = cv.minMaxLoc(imgGray)
     
     # cv.circle(img, maxLoc, 4, (255,00,00))
@@ -21,6 +23,8 @@ def scan4laser(srcPath):
     cv.imshow('source image', img)
 
     k = cv.waitKey(0)
+
+    return maxLoc
 
 
 # scan4laser("realDot.jpg")
